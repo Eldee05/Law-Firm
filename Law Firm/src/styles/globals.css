@@ -1,0 +1,31 @@
+@import "tailwindcss";
+:root {
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Jost", system-ui, sans-serif;
+
+  --color-white: #f8f6f2;
+  --color-gray-100: #f0eeea;
+  --color-gray-300: #c4c0b8;
+  --color-gray-500: #8a8680; /* Muted text */
+  --color-gray-700: #4a4744; /* Body text */
+  --color-gray-900: #1a1816; /* Near-black text */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-900);
+  background-color: var(--color-white);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
